@@ -9,7 +9,7 @@ public class Main {
         System.out.println(in.nextLong() + " - целое число");
       } else if (in.hasNextDouble() || in.hasNextFloat()) {
         // чтобы получить вещественное число нужно использовать запятую или запись с экспонентой: 1e-10
-        System.out.println(in.nextDouble() + " - вещественное  число");
+        System.out.println(in.nextDouble() + " - рациональное  число");
       } else if (in.hasNextBoolean()) {
         System.out.println(in.nextBoolean() + " - Логическое значение");
       } else if (in.hasNext() ) {
