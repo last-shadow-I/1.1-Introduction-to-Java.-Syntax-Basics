@@ -12,3 +12,7 @@ static double ceil(double a)
 ``` java
 static double floor(double a)
 ```
+4. Math.rint - работает почти как *round*, только возвращает *double*. Также если два ближайщих *double* значения (целых числа), одинаково близки (при .5), результатом будет четное целое значение.
+``` java
+static double rint(double a)
+```
