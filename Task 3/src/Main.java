@@ -43,17 +43,16 @@ public class Main {
             }
             sumNumbs += numb;
           } else { // если в подстроке не число, то выходим из циклов
-            mean = sumNumbs/count;
+            mean = sumNumbs / count;
             countIsOver = true;
             break;
           }
         }
       }
         else { // если строка пустая, то выходим из цикла
-        mean = sumNumbs/count;
+        mean = sumNumbs / count;
         break;
       }
-
     }
 
     System.out.println("Количество чисел: " + count);

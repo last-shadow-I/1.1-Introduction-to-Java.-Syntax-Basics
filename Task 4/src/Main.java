@@ -5,8 +5,12 @@ public class Main {
   public static void main(String[] args) {
     int lowerBound = -1000;
     int upperBound = 1000;
-    int number, n, count = 0, maxSeries = 0;
-    double sign, numberSign = 0;
+    int number;
+    int n;
+    int count = 0;
+    int maxSeries = 0;
+    double sign;
+    double numberSign = 0;
 
     upperBound = abs(upperBound)+abs(lowerBound)+1;
     Scanner in = new Scanner(System.in);
